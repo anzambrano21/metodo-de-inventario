@@ -24,7 +24,7 @@ class LeppFal(Lepp):
     def costo(self,costoP,costoOp,costoMi,cf):
         q=super().cantidadInv(costoOp,costoMi)*sqrt((costoMi+cf)/cf)
         s=sqrt(2*self.td*costoOp/cf)*sqrt(1-self.td/self.Tp)*sqrt(costoMi/(costoMi+cf))
-        self.c=costoOp*q+costoOp+(costoMi/2)*pow(q*(1-self.td/self.Tp)-s,2)*(1/(self.Tp-self.Tp)+1/self.td)+(cf*s*s/2)*(1/(self.Tp-self.Tp)+1/self.td)
+        self.c=costoP*q+costoOp+(costoMi/2)*pow(q*(1-self.td/self.Tp)-s,2)*(1/(self.Tp-self.Tp)+1/self.td)+(cf*s*s/2)*(1/(self.Tp-self.Tp)+1/self.td)
         return self.c
 
 
