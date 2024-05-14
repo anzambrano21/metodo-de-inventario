@@ -1,0 +1,8 @@
+Comparación entre modelos: Realizaremos una comparativa exhaustiva 
+entre los modelos de Lote Económico de Producción (LEP) y Cantidad 
+Económica de Pedido (EOQ), tanto con faltante como sin faltante, analizando 
+los resultados de cada simulación para identificar las fortalezas y debilidades 
+de cada enfoque en la gestión de inventarios. Además, evaluaremos la sensibilidad 
+de cada modelo a diversas condiciones de mercado y propondremos recomendaciones 
+específicas basadas en los hallazgos de la simulación para la toma de decisiones 
+estratégicas.
