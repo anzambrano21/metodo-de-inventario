@@ -1,8 +1,12 @@
-""" Q cantidad de inventario D  es tasa de la demanda R tasa de produccioon """
+""" 
+Q cantidad de inventario. 
+D es tasa de la demanda. 
+R tasa de produccion 
+"""
 from math import sqrt
 class Lepp:
-#constructor de la clase del modelo lepp y inicializando las variavles 
-#de tasa de produccion (Tp) y tassa de demanda (td) 
+# Constructor de la clase del modelo lepp e inicializando las variables 
+# de tasa de produccion (Tp) y tasa de demanda (td) 
 #
     def __init__(self):
         self.Tp=0
